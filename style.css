@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;  
+}
+
+html{
+    font-size: 10px;
+}
+
+
+
+.header{
+    background-color: #2F343A;
+    box-shadow:.5rem 1rem 2rem  rgba(0, 0, 0, 0.1);
+    height: 10vh;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.header__title{
+    font-family: 'Metal Mania', cursive;
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.score{
+    border: .5rem solid #80ceb9;
+    border-radius: 1rem;
+    width: 18rem;
+    height: 7rem;
+    margin:2rem auto;
+    font-family: 'Metal Mania', cursive;
+    position: relative;
+
+}
+
+.score__utitle{
+    position:absolute;
+font-size: 1.6rem;    
+background-color: #ff0038;
+top:1.5rem;
+left: -1.8rem;
+padding: .3rem;
+border-radius: .5rem;
+color: white;
+font-weight: bold;
+}
+.score__stitle{
+    position:absolute;
+    top:1.5rem;
+    right:-1rem;
+font-size: 1.6rem; 
+padding: .3rem;
+border-radius: .5rem;
+background-color: #ff0038;
+color: white;
+font-weight: bold;
+margin-right: -1rem;
+}
+.score__number{
+    font-size: 3.5rem;
+    position: absolute;
+    margin:.7rem 3.5rem;
+}
+
+#result{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #2F343A;
+
+}
+
+.items{
+ display: flex;
+ flex-direction: row;
+ margin-top: 4rem;
+ justify-content: center;
+}
+
+.items__1,.items__2,.items__3{
+    height:10rem;
+    width: auto;
+    border-radius: 50%;
+    border: .5rem solid #80ceb9;
+    margin: 1.5rem;
+    box-shadow:.5rem 0.5rem 1rem  rgba(0, 0, 0, 0.2);
+    transition: all .2s;
+}
+
+.items__1:hover,.items__2:hover,.items__3:hover{
+   transform: translateY(-.2rem);
+   cursor: pointer;
+}
+
+.bottom_message{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #2F343A;
+}
+
+
+
